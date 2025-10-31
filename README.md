@@ -1,6 +1,6 @@
 **Za'atar & Zza's Website**
 
-Proudly Halaal restaurant in Observatory, Cape Town — wood‑fired pizza, kebabs, pasta, gelato, mocktails and more. Visit the live site at `https://zzas.co.za/`.
+Proudly Halaal restaurant in Observatory, Cape Town — wood‑fired pizza, kebabs, pasta, gelato, mocktails and more. Visit the live site at `https://sizzlenslice.co.za/`.
 
 ## Overview
 This repository contains the production-ready static build of the Za'atar & Zza's marketing website. It is optimized for fast load times, reliability, and search visibility. Content is served as static assets (HTML/CSS/JS, images, fonts) and can be deployed on any modern static hosting platform with a CDN.
@@ -13,7 +13,7 @@ This repository contains the production-ready static build of the Za'atar & Zza'
 - **Responsive design**: Mobile-first styles for consistent experience across devices.
 
 ## Repository Structure
-- **`zaatarandzzas/`**: Site root containing `index.html` and all static assets
+- **`zaatarandsizzlenslice/`**: Site root containing `index.html` and all static assets
   - **`index.html`**: Primary entry point
   - **`wp-content/`**: Images, fonts, styles, and compiled scripts delivered as static assets
   - Additional vendor assets as needed for UI components and media
@@ -23,7 +23,7 @@ No build step is required. You can run a simple static server to preview locally
 
 - **Using Python (built-in on macOS):**
 ```bash
-cd zaatarandzzas
+cd zaatarandsizzlenslice
 python3 -m http.server 8080
 ```
 Then open `http://localhost:8080` in your browser.
@@ -31,17 +31,17 @@ Then open `http://localhost:8080` in your browser.
 - **Using Node (if preferred):**
 ```bash
 npm i -g serve
-serve zaatarandzzas -l 8080
+serve zaatarandsizzlenslice -l 8080
 ```
 
 ## Deployment
-This site can be hosted on any static hosting/CDN provider. A typical deployment uploads the contents of `zaatarandzzas/` to the hosting platform and enables global caching.
+This site can be hosted on any static hosting/CDN provider. A typical deployment uploads the contents of `zaatarandsizzlenslice/` to the hosting platform and enables global caching.
 
 Recommended settings:
 - **Caching**: Cache HTML conservatively; cache static assets (CSS/JS/images/fonts) with long TTLs and content hashing.
 - **Compression**: Enable Brotli and Gzip.
 - **HTTP/2 or HTTP/3**: For improved multiplexing and lower latency.
-- **Redirects**: Ensure canonical domain (`https://zzas.co.za/`) and HTTPS are enforced.
+- **Redirects**: Ensure canonical domain (`https://sizzlenslice.co.za/`) and HTTPS are enforced.
 
 ## Content & SEO
 - **Metadata**: Open Graph and Twitter card tags are present for social sharing.
@@ -57,7 +57,7 @@ Recommended settings:
 
 ## Maintenance Workflow
 1. Create a feature branch for changes.
-2. Update HTML/CSS/assets under `zaatarandzzas/`.
+2. Update HTML/CSS/assets under `zaatarandsizzlenslice/`.
 3. Preview locally with a static server.
 4. Open a pull request for review.
 5. Deploy after approval.
@@ -66,4 +66,4 @@ Recommended settings:
 All rights reserved. © Za'atar & Zza's. If you need licensing or usage permissions, please contact the website administrators.
 
 ## Contact
-For reservations or general inquiries, please visit the live site at `https://zzas.co.za/` and use the contact information provided there.
+For reservations or general inquiries, please visit the live site at `https://sizzlenslice.co.za/` and use the contact information provided there.

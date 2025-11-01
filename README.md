@@ -1,6 +1,6 @@
 **Sizzle 'N Slice Website**
 
-Proudly Halaal restaurant in Observatory, Cape Town — wood‑fired pizza, kebabs, pasta, gelato, mocktails and more. Visit the live site at `https://sizzlenslice.co.za/`.
+Restaurant in Benoni, South Africa — wood‑fired pizza, wings, burgers, chips, gelato, mocktails and more. Visit the site at `https://sizzlenslice.co.za/` (custom domain) or the preview at `https://mjsteenberg.github.io/sizzlenslice/`.
 
 ## About Sizzle ‘n Slice
 **Hot, Fresh, and Full of Flavour.**

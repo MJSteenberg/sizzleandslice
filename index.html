@@ -160,6 +160,31 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
   .elementor-element-12c214a > .elementor-widget-container{padding:24px 0 0 !important}
 }
 </style>
+<style id="custom-promotions-grid" type="text/css">
+/* Promotions: stack on mobile, 2 columns on desktop */
+#promotions .razzi-heading-wrapper{
+  text-align:center;
+}
+.promotions-grid{
+  display:block;
+}
+.promotions-grid .promotion-banner{
+  width:100%;
+  height:auto;
+  display:block;
+}
+@media (min-width:1025px){
+  .promotions-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px;
+  }
+  .promotions-grid .promotion-banner{
+    margin-top:0 !important;
+    max-width:100%;
+  }
+}
+</style>
 <link rel="stylesheet" id="elementskit-parallax-style-css" href="wp-content/plugins/elementskit/modules/parallax/assets/css/style%EF%B9%96ver=3.2.0.css" type="text/css" media="all">
 <link rel="stylesheet" id="ekit-widget-styles-css" href="wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles%EF%B9%96ver=3.6.1.css" type="text/css" media="all">
 <link rel="stylesheet" id="ekit-widget-styles-pro-css" href="wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro%EF%B9%96ver=3.2.0.css" type="text/css" media="all">
@@ -645,9 +670,9 @@ var FOOBOX = window.FOOBOX = {
 }</style><style type="text/css">undefined</style>
 <style>
 html { scroll-behavior: smooth; }
-#story, #menu, #order, #merch, #gift, #contact { scroll-margin-top: 140px; }
+#story, #menu, #promotions, #order, #merch, #gift, #contact { scroll-margin-top: 140px; }
 @media (max-width: 767px) {
-  #story, #menu, #order, #merch, #gift, #contact { scroll-margin-top: 220px; }
+  #story, #menu, #promotions, #order, #merch, #gift, #contact { scroll-margin-top: 220px; }
 }
 </style>
 
@@ -694,6 +719,7 @@ html { scroll-behavior: smooth; }
 	<ul id="menu-home" class="nav-menu click-icon"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11837 active"><a href="index.html">Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11838"><a href="#story">About Us</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11839"><a href="#menu">Menus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-promotions"><a href="#promotions">Promotions</a></li>
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12014"><a href="#order">Orders</a></li> -->
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12126 active"><a href="#merch">Merchandise</a></li> -->
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11844"><a href="#gift">Gift Vouchers</a></li> -->
@@ -796,6 +822,26 @@ html { scroll-behavior: smooth; }
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-606c082" data-id="606c082" data-element_type="column">
 			<div class="elementor-widget-wrap">
 							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementskit-parallax-multi-container" id="promotions" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-widget elementor-widget-razzi-heading" data-element_type="widget" data-widget_type="razzi-heading.default">
+				<div class="elementor-widget-container">
+					<div class="razzi-heading-wrapper"><h2 class="razzi-heading-title"><h2> Our Promotions</h2></div>				</div>
+				</div>
+				<div class="elementor-element elementor-widget elementor-widget-image" data-element_type="widget">
+				<div class="elementor-widget-container">
+					<div class="promotions-grid">
+						<img src="PROMO-SIZZLE-LUNCH-DEALS_FB_FEB2026_FA.jpg" alt="Lunch deals promotion" class="promotion-banner">
+						<img src="PROMO-SIZZLE-NAT-PROMO-2LRG-PIZZAS_FB_FEB2026_FA.jpg" alt="Two large pizzas promotion" class="promotion-banner">
+					</div>
+				</div>
+				</div>
+					</div>
 		</div>
 					</div>
 		</section>
@@ -1672,6 +1718,7 @@ var sbiajaxurl = "";
 						<ul id="menu-home-1" class="nav-menu menu click-icon"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11837 active"><a href="index.html">Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11838"><a href="#story">About Us</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11839"><a href="#menu">Menus</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-promotions"><a href="#promotions">Promotions</a></li>
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12014"><a href="#order">Orders</a></li> -->
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12126 active"><a href="#merch">Merchandise</a></li> -->
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11844"><a href="#gift">Gift Vouchers</a></li> -->

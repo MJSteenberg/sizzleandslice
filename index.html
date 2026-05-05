@@ -161,27 +161,24 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 }
 </style>
 <style id="custom-promotions-grid" type="text/css">
-/* Promotions: stack on mobile, 2 columns on desktop */
+/* Promotions: single banner, centered, capped width on desktop */
 #promotions .razzi-heading-wrapper{
   text-align:center;
 }
 .promotions-grid{
-  display:block;
+  display:flex;
+  justify-content:center;
 }
 .promotions-grid .promotion-banner{
   width:100%;
   height:auto;
   display:block;
+  max-width:720px;
 }
 @media (min-width:1025px){
-  .promotions-grid{
-    display:grid;
-    grid-template-columns:repeat(2,minmax(0,1fr));
-    gap:24px;
-  }
   .promotions-grid .promotion-banner{
     margin-top:0 !important;
-    max-width:100%;
+    max-width:720px;
   }
 }
 </style>
@@ -836,8 +833,7 @@ html { scroll-behavior: smooth; }
 				<div class="elementor-element elementor-widget elementor-widget-image" data-element_type="widget">
 				<div class="elementor-widget-container">
 					<div class="promotions-grid">
-						<img src="PROMO-SIZZLE-LUNCH-DEALS_FB_FEB2026_FA.jpg" alt="Lunch deals promotion" class="promotion-banner">
-						<img src="PROMO-SIZZLE-NAT-PROMO-2LRG-PIZZAS_FB_FEB2026_FA.jpg" alt="Two large pizzas promotion" class="promotion-banner">
+						<img src="PROMO-SIZZLE-NAT-2LRG-PIZZAS-FREE-MARG_APRIL2026_FA.jpg" alt="Buy any 2 large pizzas, get a free medium margherita" class="promotion-banner" loading="lazy">
 					</div>
 				</div>
 				</div>

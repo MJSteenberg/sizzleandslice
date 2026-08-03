@@ -161,13 +161,16 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 }
 </style>
 <style id="custom-promotions-grid" type="text/css">
-/* Promotions: single banner, centered, capped width on desktop */
+/* Promotions: two banners side by side on desktop, stacked on mobile */
 #promotions .razzi-heading-wrapper{
   text-align:center;
 }
 .promotions-grid{
   display:flex;
+  flex-wrap:wrap;
   justify-content:center;
+  align-items:flex-start;
+  gap:24px;
 }
 .promotions-grid .promotion-banner{
   width:100%;
@@ -178,7 +181,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 @media (min-width:1025px){
   .promotions-grid .promotion-banner{
     margin-top:0 !important;
-    max-width:720px;
+    flex:1 1 0;
+    min-width:0;
+    max-width:600px;
   }
 }
 </style>
@@ -833,6 +838,7 @@ html { scroll-behavior: smooth; }
 				<div class="elementor-element elementor-widget elementor-widget-image" data-element_type="widget">
 				<div class="elementor-widget-container">
 					<div class="promotions-grid">
+						<img src="SIZZLE-NAT-PROMO-1LRG-PIZZA-R89_web_JULY2026_FA.jpg" alt="Get a large pizza for only R89 - choose from Bacon, Pepperoni, Regina or Hamlet" class="promotion-banner" loading="lazy">
 						<img src="promo-23july2026.jpg" alt="Get any 2 Sizzle Pockets for only R59, available till 4pm" class="promotion-banner" loading="lazy">
 					</div>
 				</div>
